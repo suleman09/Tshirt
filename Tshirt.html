@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Customized TShirts</title>
+
+
+  </head>
+  <body bgcolor="#FF7533">
+  <h1 align="center">Customize you T-shirt here</h1>
+
+  <div align="center" class="form">
+    <form class="myForm" method="get">
+    <br>
+    <label>Name
+    <input type="text" name="customer_name" required>
+    </label>
+    <br>
+    <br>
+    <label>Mobile no.
+    <input type="tel" name="phone_number">
+    </label>
+    <br>
+    <br>
+    <label>Mail ID
+    <input type="email" name="email_address">
+    </label>
+    <br>
+    <br>
+    <fieldset>
+    <label>Size</label>
+    <br>
+    <input type="radio" name="Small" > Small</input>
+    <input type="radio" name="Medium" > Medium</input>
+    <input type="radio" name="Large" > Large</input>
+    <input type="radio" name="Large" > Extra Large</input>
+    <br><br>
+    <label>Colour
+    <br>
+    <input type="text" name="Colour" required>
+    </label>
+    <br>
+    <br><br>
+    <label>Tagline (If any)
+    <br>
+    <input type="text" name="Colour" required>
+    </label>
+    <br>
+
+    <br>
+    </fieldset>
+    <br>
+    <p>
+    <label>Shipping Details
+      <br>
+      <br>
+    <input type="datetime-local" name="delivery_time" required>
+    </label>
+    </p>
+    <br>
+    <label>Address
+      <input type="text" name="Address">
+    </label>
+    <br><br>
+    <label>City
+      <input type="text" name="state" required list="destinations">
+    </label>
+
+    <datalist id="destinations">
+    <option value="Mumbai">
+    <option value="Delhi">
+    <option value="Pune">
+    </datalist>
+    <br><br>
+    <label>Pincode
+      <input type="text" name="tag">
+    </label>
+    <p><button>Place your Order </button></p>
+
+    </form>
+  </div>
+
+
+  </body>
+</html>
